@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:buster
 
 RUN apt update && apt install -y git cmake libavahi-compat-libdnssd-dev libplist-dev libssl-dev g++ wget zip
 
